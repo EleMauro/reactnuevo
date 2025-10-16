@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #000;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between; /* separa links y logo */
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #1e90ff;
+}
+
+/* Logo */
+.nav-logo {
+  height: 100px;
+  width: auto;
+  border-radius: 8px;
+}
